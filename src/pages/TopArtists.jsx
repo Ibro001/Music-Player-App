@@ -18,7 +18,7 @@ const TopArtists = () => {
         {data?.map((track) => <ArtistCard key={track.key} track={track} />)}
       </div>
     </div>
-  );
+  ); 
 };
 
 export default TopArtists;
