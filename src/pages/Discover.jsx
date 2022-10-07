@@ -1,5 +1,5 @@
-import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import React from 'react';
 
 import { Error, Loader, SongCard } from '../components';
 import { selectGenreListId } from '../redux/features/playerSlice';
